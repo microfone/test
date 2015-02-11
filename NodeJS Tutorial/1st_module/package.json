@@ -1,0 +1,11 @@
+{
+  "name": "1st_module",
+  "version": "1.0.0",
+  "description": "tutorial ex6",
+  "main": "index.js",
+  "scripts": {
+    "test": "moduleintro"
+  },
+  "author": "",
+  "license": "ISC"
+}

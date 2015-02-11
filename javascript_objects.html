@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+
+<html>
+	<head>
+		<style type="text/css">
+			
+		</style>
+		<script type="text/javascript">
+			function pessoa(name,age){
+				this.name=name;
+				this.age=age;
+				this.yearsToRetire=years_retirement;
+			}
+			
+			function years_retirement(){
+				var numYears=65-this.age;
+				return numYears;
+			}
+			
+			var pedro= new pessoa("pedro",23);
+			var arya= new pessoa("arya",14);
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			document.write(arya.age+"<br/>");
+			document.write(pedro.yearsToRetire()+"<br/>");
+		</script>
+	</body>
+</html>
